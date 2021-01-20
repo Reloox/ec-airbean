@@ -30,8 +30,7 @@ export default {
       this.showNav = !this.showNav;
     },
   cart() {
-      this.$root.$emit('showCart')
-    console.log('cart clicked')
+      this.$emit('showCart')
     }
   }
 }

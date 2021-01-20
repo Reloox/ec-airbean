@@ -57,7 +57,6 @@ export default {
       this.cartCount += 1;
     },
     showCart() {
-      alert('clicked')
       this.visible = !this.visible;
 
     },
